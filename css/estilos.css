@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+h1,body { margin: 0;}
+
+body{
+    background-color: #E2E2DB;
+}
+
+
+h1{
+    text-align: center;
+    color: #547FA2;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+    font-size: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+    
+
+h2 {
+        text-align: center;
+        color: #547FA2;
+         font-weight: 700;
+         font-family: "Playfair Display", serif;
+         font-size: 18px;
+         margin: 10px;
+         margin-top: 10px;
+         text-transform: uppercase;
+         
+    }
+
+
+   h3 { 
+        font-family: "Roboto Mono", monospace;
+        font-size:18px;
+        text-align: center;
+        margin-top: 50px;
+      margin-left: 90px;
+      margin-right:90px;
+      color: #547FA2;
+        }
+
+        h4 { 
+            font-family: "Roboto Mono", monospace;
+            font-size: 12px;
+            text-align: center;
+            color: #547FA2; 
+            margin-bottom: 30px;
+            }
+     
+
+p{ 
+        font-family: "Roboto Mono", monospace;
+        font-size: 10px;
+        text-align: center;
+        margin-top: 10px;
+        color: #547FA2; 
+        margin-bottom: 30px;
+        }
+    
+header {
+    width: 100%;
+    padding-top: 15px;
+    height: 35vh;
+    text-align: center;
+    background-image: url(../imagenes/foto-10.jpg);
+    background-repeat: repeat;
+   
+}
+
+header a {
+background-color: white;
+color: black;
+border: 1px dashed white;
+text-decoration: none;
+display: block;
+width: 125px;
+height: 30px;
+margin: auto;
+line-height: 30px;
+transition: all 1s;
+margin-top: 10px;
+}
+
+a:hover {
+background-color:#547FA2;
+border-color: white;
+color: white;
+border-radius:15px ;
+
+}
+
+
+footer{
+    background-image: url(../imagenes/foto-09.jpg);
+    background-repeat: repeat;
+    width: 100%;
+    height: 6vh;
+    
+}
+
+
+main {
+    width: 90%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+
+video { 
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+
+div {
+    width: 30%;
+    margin-top: 30px;
+}
+
+
+img { width: 100%; 
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+border-radius: 10px;
+}
+
+.animacion {
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 50%; 
+    animation: titilar 1s infinite alternate;
+    position: absolute;
+   
+}
+
+.animacion.animacion-1 {
+    top: 30px;
+    left: 420px;
+    width: 15px;
+    height: 15px;
+}
+
+.animacion.animacion-2 {
+    top: 70px;
+    left: 400px;
+    width: 15px;
+    height: 15px;
+}
+
+.animacion.animacion-3 {
+    top: 60px;
+    left: 440px;
+    width: 20px;
+    height: 20px;
+}
+
+.animacion.animacion-4 {
+    top: 30px;
+    left: 360px;
+    width: 25px;
+    height: 25px;
+}
+
+.animacion.animacion-5 {
+    top: 50px;
+    left: 310px;
+    width: 10px;
+    height: 10px;
+}
+
+.animacion.animacion-6 {
+    top: 90px;
+    left: 360px;
+    width: 5px;
+    height: 5px;
+}
+
+
+
+.animacion.animacion-7 {
+    top: 30px;
+    left: 1120px;
+    width: 15px;
+    height: 15px;
+}
+
+.animacion.animacion-8 {
+    top: 70px;
+    left: 1100px;
+    width: 15px;
+    height: 15px;
+}
+
+.animacion.animacion-9 {
+    top: 60px;
+    left: 1150px;
+    width: 20px;
+    height: 20px;
+}
+
+.animacion.animacion-10 {
+    top: 30px;
+    left: 1080px;
+    width: 25px;
+    height: 25px;
+}
+
+.animacion.animacion-11 {
+    top: 50px;
+    left: 1040px;
+    width: 10px;
+    height: 10px;
+}
+
+.animacion.animacion-12 {
+    top: 80px;
+    left: 1070px;
+    width: 10px;
+    height: 10px;
+}
+
+
+
+@keyframes titilar {
+    0% {
+        opacity: 0; /* Inicia con opacidad 0 */
+    }
+    100% {
+        opacity: 1; /* Termina con opacidad 1 */
+    }
+}
